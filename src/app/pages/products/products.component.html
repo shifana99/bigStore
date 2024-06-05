@@ -1,0 +1,22 @@
+<div style="position: absolute;left: 150px; top: 100px;">
+    <div class="container">
+  <div class="row row-spacing">
+      @for (item of products ; track item.id){
+          <div class="col">
+              <div class="card" style="width: 18rem; ">
+                  <img src="{{item.image}}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">{{item.title}}</h5>
+                      <h6 class="card-text">{{item.price}}</h6>
+                      <h6 class="card-text">{{item.category}}</h6>
+                      <p class="card-text">{{item.description}}</p>
+                      <a routerLink="{{item.id}}" class="btn btn-primary">See more</a>
+                  </div>
+              </div>
+      
+      
+      </div>
+  }
+  </div>
+</div>
+</div>

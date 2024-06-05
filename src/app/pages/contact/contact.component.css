@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.contact-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+}
+
+.contact-section .form-group label {
+    color: #007bff;
+}
+
+.contact-section .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.contact-section .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.contact-section .btn-custom {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.contact-section .btn-custom:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.contact-section .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.contact-section .list-unstyled li {
+    padding: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.contact-section .list-unstyled li i {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+#map-container {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
